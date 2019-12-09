@@ -1,0 +1,215 @@
+// main container CreditComponent
+.creditContainer{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width:80vw;
+    height:85vh;
+    margin:auto;
+    text-align:center;
+    background-color:#003B67;
+    margin-top:7vh;
+}
+@media (max-width: 1100px) {
+    .creditContainer{
+        margin-top:5vh;
+        height:90vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .creditContainer{
+        margin-top:5vh;
+        width:95vw;
+    }
+}
+
+.slider{
+    width:50%;
+    margin:auto;
+}
+
+// CuotaFinal Component
+
+.cuotaMes{
+    width:55%;
+    height:14%;
+    margin:auto;
+    color:white;
+    background-color:#00355D;
+    display:inline-flex;
+    justify-content: space-around;
+}
+
+.cuotaTitle{
+    font-size: 22px;
+    margin:auto;
+}
+
+.cuotaAmount{
+    font-size: 50px;
+    margin:auto;
+}
+
+
+@media (max-width: 1100px) {
+    .cuotaTitle{
+        font-size: 11px;
+    }
+    .cuotaAmount {
+        font-size: 25px;
+    }
+}
+
+//MontoSlider Component
+
+.montosMinMAx{
+    width:59%;
+    height:5%;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+    display:inline-flex;
+    justify-content: space-between;
+    font-size:25px;
+}
+
+.montoTotal{
+    width:60%;
+    height:5%;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+    display:inline-flex;
+    justify-content: space-between;
+    font-size:25px;
+}
+
+
+.montoTotalTitle{
+    width:39vw;
+    height:5vh;
+    padding-top:8px;
+    text-align: left;
+    font-weight: 500;
+
+
+}
+
+.montoTotalValue{
+    width:12vw;
+    height:5vh;
+    padding-top:8px;
+    border:solid 1px white;
+    font-weight: 700;
+
+}
+
+@media (max-width: 1100px) {
+    .montoTotalTitle{
+        font-size: 15px;
+        padding-top:18px;
+
+    }
+}
+
+@media (max-width: 1100px) {
+    .montoTotalValue{
+        font-size: 15px;
+        padding-top:18px;
+
+    }
+}
+// PlazoSlider Component
+
+.plazosMinMax{
+    width:52%;
+    height:5%;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+    display:inline-flex;
+    justify-content: space-between;
+    font-size:25px;
+}
+
+.plazo{
+    width:60%;
+    height:5%;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+    display:inline-flex;
+    justify-content: space-between;
+    font-size:25px;
+}
+
+
+.plazoTitle{
+    width:39vw;
+    height:5vh;
+    padding-top:8px;
+    text-align: left;
+    font-weight: 500;
+
+
+}
+
+.plazoValue{
+    width:12vw;
+    height:5vh;
+    padding-top:8px;
+    border:solid 1px white;
+    font-weight: 700;
+
+}
+
+
+.buttonActions{
+    width:55%;
+    height:14%;
+    margin:auto;
+    color:white;
+    background-color:#00355D;
+    display:inline-flex;
+    justify-content: space-around;
+}
+@media (max-width: 1600px) {
+    .buttonActions{
+        height:10vh;
+    }
+}
+.obteneCredito{
+    width:60%;
+    height:8vh;
+    color:white;
+    font-size:30px;
+    background-color:#17AA8D;
+    font-weight: 700;
+
+}
+
+.detalleCuota{
+    width:35%;
+    height:8vh;
+    color:white;
+    font-size:22px;
+    background-color: #09548B;
+    font-weight: 500;
+
+}
+@media (max-width: 1100px) {
+    .obteneCredito{
+        font-size: 15px;
+    }
+    .detalleCuota {
+        font-size: 11px;
+    }
+}
+
+.mainTitle{
+    color:white;
+    padding-top:1vh;
+}
+
+
